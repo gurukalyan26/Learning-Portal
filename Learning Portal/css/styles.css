@@ -1,0 +1,66 @@
+.dropdown-menu {
+    background: black;
+    padding: 6px;
+}
+
+.dropdown-item {
+    color: white;
+    border-radius: 50px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item a {
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 8px black;
+}
+
+.lead {
+    color: black;
+}
+
+.c_image {
+    border-radius: 10px;
+}
+
+.t_card {
+    box-shadow: 0 0 10px #003b3b;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.t_card:hover {
+    background-color: #003b3b;
+    color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+
+.t_card:hover .fab {
+    color: white !important;
+}
+
+.c_card {
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.c_card:hover {
+    color: white;
+    transform: perspective(400px) rotateY(-10deg);
+}
+
+.icons i {
+    font-size: 50px;
+}
